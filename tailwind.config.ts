@@ -62,6 +62,9 @@ const config: Config = {
         '3xl': '2rem',
       },
       backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
         'gradient-sage': 'linear-gradient(135deg, #a0c6c6 0%, #76a5af 100%)',
         'gradient-teal': 'linear-gradient(135deg, #134f5c 0%, #76a5af 100%)',
         'nature-overlay': 'linear-gradient(rgba(19, 79, 92, 0.6), rgba(19, 79, 92, 0.6))',

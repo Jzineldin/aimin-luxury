@@ -136,11 +136,11 @@ export default function HomePage() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* Coaching Card */}
             <div className="service-card scroll-reveal group">
-              <div className="h-48 mb-6 relative rounded-2xl overflow-hidden bg-soft-teal flex items-center justify-center">
-                <div className="text-white font-lato">
+              <div className="h-48 mb-6 relative rounded-2xl overflow-hidden bg-gradient-to-br from-soft-teal to-sage flex items-center justify-center">
+                <div className="text-white font-lato font-medium">
                   Coaching in Nature
                 </div>
                 <div className="absolute bottom-4 left-4">
@@ -165,8 +165,8 @@ export default function HomePage() {
 
             {/* Leadership Card */}
             <div className="service-card scroll-reveal group">
-              <div className="h-48 mb-6 relative rounded-2xl overflow-hidden bg-sage flex items-center justify-center">
-                <div className="text-deep-teal font-lato">
+              <div className="h-48 mb-6 relative rounded-2xl overflow-hidden bg-gradient-to-br from-sage to-light-sage flex items-center justify-center">
+                <div className="text-deep-teal font-lato font-medium">
                   Leadership Workshop
                 </div>
                 <div className="absolute bottom-4 left-4">
@@ -191,8 +191,8 @@ export default function HomePage() {
 
             {/* Retreats Card */}
             <div className="service-card scroll-reveal group">
-              <div className="h-48 mb-6 relative rounded-2xl overflow-hidden bg-light-sage flex items-center justify-center">
-                <div className="text-deep-teal font-lato">
+              <div className="h-48 mb-6 relative rounded-2xl overflow-hidden bg-gradient-to-br from-light-sage to-soft-teal flex items-center justify-center">
+                <div className="text-white font-lato font-medium">
                   Retreat in Nature
                 </div>
                 <div className="absolute bottom-4 left-4">
@@ -227,48 +227,48 @@ export default function HomePage() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <div className="bg-white rounded-3xl p-8 shadow-xl scroll-reveal">
-              <div className="flex items-center mb-4">
-                <div className="bg-deep-teal text-white px-3 py-1 rounded text-sm font-bold">
+              <div className="flex items-center justify-center mb-6">
+                <div className="bg-deep-teal text-white px-6 py-3 rounded-full text-lg font-bold">
                   IKEA
                 </div>
               </div>
-              <p className="text-gray-600 italic leading-relaxed mb-4">
+              <p className="text-gray-600 italic leading-relaxed mb-6 text-center">
                 "Anna's unique approach to leadership development has transformed 
                 how our teams connect and collaborate. Her insights are invaluable."
               </p>
-              <div className="text-sm text-gray-500">
+              <div className="text-sm text-gray-500 text-center">
                 — Leadership Team, IKEA
               </div>
             </div>
 
             <div className="bg-white rounded-3xl p-8 shadow-xl scroll-reveal">
-              <div className="flex items-center mb-4">
-                <div className="bg-deep-teal text-white px-3 py-1 rounded text-sm font-bold">
+              <div className="flex items-center justify-center mb-6">
+                <div className="bg-deep-teal text-white px-6 py-3 rounded-full text-lg font-bold">
                   E.ON
                 </div>
               </div>
-              <p className="text-gray-600 italic leading-relaxed mb-4">
+              <p className="text-gray-600 italic leading-relaxed mb-6 text-center">
                 "Working with Anna brought a new dimension to our management approach. 
                 Her methods create lasting change in organizational culture."
               </p>
-              <div className="text-sm text-gray-500">
+              <div className="text-sm text-gray-500 text-center">
                 — Executive Team, E.ON
               </div>
             </div>
 
             <div className="bg-white rounded-3xl p-8 shadow-xl scroll-reveal">
-              <div className="flex items-center mb-4">
-                <div className="bg-deep-teal text-white px-3 py-1 rounded text-sm font-bold">
+              <div className="flex items-center justify-center mb-6">
+                <div className="bg-deep-teal text-white px-6 py-3 rounded-full text-lg font-bold">
                   Volvo
                 </div>
               </div>
-              <p className="text-gray-600 italic leading-relaxed mb-4">
+              <p className="text-gray-600 italic leading-relaxed mb-6 text-center">
                 "Anna's workshops on conscious leadership have enhanced our team 
                 dynamics and improved our decision-making processes significantly."
               </p>
-              <div className="text-sm text-gray-500">
+              <div className="text-sm text-gray-500 text-center">
                 — Management Team, Volvo
               </div>
             </div>
